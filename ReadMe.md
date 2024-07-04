@@ -2,4 +2,4 @@ Web based Chat App
 
 # FrontEnd: HTML & Css
 
-# Backend:
+# Backend: Node js
