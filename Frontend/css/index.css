@@ -334,11 +334,15 @@ body {
 
 .typing-area input{
   height: 45px;
-  width: calc(100% - 58px);
+  width: calc(100% - 120px);
   border: 1px solid rgb(91, 96, 103);
   border-radius: 50px;
   outline: none;
   padding: 10px;
+}
+
+.typing-area input:focus{
+  border-color: rgb(0, 93, 243);
 }
 
 .typing-area button{
@@ -348,4 +352,13 @@ body {
   background-color: rgb(0, 68, 179);
   border-radius: 50px;
   color: white;
+}
+
+.typing-area .even{
+  height: 40px;
+  width: 40px;
+}
+
+.typing-area button:hover{
+  background-color: rgb(0, 93, 243);
 }
