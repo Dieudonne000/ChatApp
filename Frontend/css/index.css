@@ -93,6 +93,10 @@ body {
   border-radius: 3px;
   cursor: pointer;
 }
+
+.form form .button button:hover{
+  background-color: rgb(0, 68, 179);
+}
 .form .link {
   text-align: center;
   margin: 10px 0;
